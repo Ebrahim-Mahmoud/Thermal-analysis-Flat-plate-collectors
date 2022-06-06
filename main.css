@@ -1,0 +1,113 @@
+/* css code for the web application used for calculation */
+/* ************************************************************ */
+.inputs{
+  border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+label{
+    
+    margin: 1%;
+    font-size: 150%;
+    /* color:rgb(8, 45, 114) ; */
+}
+span{
+    display: inline-block;
+    margin: 0.33%;
+}
+
+input{
+  font-size: 150%;
+  
+}
+table{
+    border: 1px solid black;
+    border-collapse: collapse;
+    width: 90%;
+    font-size: 200%;
+    white-space:pre-line
+    
+  }
+  tr,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  th{
+    border: 1px solid black;
+    border-collapse: collapse;
+    text-align: center;
+    background-color: rgb(0, 103, 120);
+    color: white;
+  }
+
+  button{
+    display: inline-block;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 150%;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  width: 20%;
+  margin: 3px;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+  
+}
+#div_buttons{
+  text-align: center;
+}
+
+.btn2 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  background: #05813f;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn2:hover {
+  background: #010a07;
+  text-decoration: none;
+}
+.btn3 {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 1px 1px 3px #85a9f2;
+  font-family: Arial;
+  color: #f5f5f5;
+  font-size: 20px;
+  background: #153263;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  margin: 10px;
+}
+
+.btn3:hover {
+  background: #009dff;
+  text-decoration: none;
+}

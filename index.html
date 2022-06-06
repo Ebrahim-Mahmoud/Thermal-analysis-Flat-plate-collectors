@@ -1,0 +1,125 @@
+<!-- Html code for the Web application used for calcuation -->
+<!-- ****************************************************** -->
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Flate plate connections</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+<div class="inputs"> 
+    <h1>Thermal analysis of different connections of Flate plate collectors</h1> 
+<div>
+    <span>
+    <label>Total irradiance (G<sub>t</sub>)</label><br>
+    <input id="gt">
+    </span>
+    <span>
+    <label>&tau;<sub>g</sub></label><br>
+    <input id="tau">
+    </span>
+    <span>
+    <label>&alpha;</label><br>
+    <input id="alpha">
+    </span>
+</div>
+<div>
+    <span>
+    <label> Overall heat coefficient (U<sub>L</sub>)</label><br>
+    <input id="ul">
+    </span>
+    <span>
+    <label>Thermal Conductivity (K)</label><br>
+    <input id="k">
+    </span>
+    <span>
+    <label>Thickness (&delta;)</label><br>
+    <input id="delta">
+    </span>
+</div>
+<div>
+    <span>
+    <label>Distance between risers (W)</label><br>
+    <input id="w">
+    </span>
+    <span>
+    <label>Outside Diameter (D<sub>o</sub>)</label><br>
+    <input id="do">
+    </span>
+</div>
+<div>
+    <span>
+    <label>Welding Conductivity (K<sub>b</sub>)</label><br>
+    <input id="kb">
+    </span>
+    <span>
+    <label>Welding Width (b)</label><br>
+    <input id="b">
+    </span>
+    <span>
+    <label>Welding Thickness (&gamma;)</label><br>
+    <input id="gamma">
+    </span>
+</div>
+<div>
+    <span>
+    <label>Inside Diameter (D<sub>i</sub>)</label><br>
+    <input id="di">
+    </span>
+    <span>
+    <label >  heat transfer coefficient (h<sub>fi</sub>)</label><br>
+    <input id="hfi">
+    </span>
+</div>
+<div>
+    <span>
+    <label>Area of collector (A<sub>c</sub>)</label><br>
+    <input id="ac">
+    </span>
+    <span>
+    <label>Mass flow rate (m&dot;)</label><br>
+    <input id="m_dot">
+    </span>
+</div>
+<div>
+    <span>
+    <label>Fluid Inlet Temperature (T<sub>fi</sub>)</label><br>
+    <input id="Tfi">
+    </span>
+    <span>
+    <label>Ambient Temperature (T<sub>a</sub>)</label><br>
+    <input id="Ta">
+    </span>
+</div>
+<div>
+    <span>
+    <label>Type of Connection (Ex:4s2p)</label><br>
+    <input id="Connection_pattern">
+    <a href="Draw connection/index.html" target="blank" class="btn3">🎨 Draw Connection</a>
+    </span>
+</div>
+</div>  
+<div id="div_buttons">
+    <button onclick="Solve()" class="btn">Solve</button>
+    <button onclick="del()" class="btn">Clear</button>
+    
+    <button onclick="full_input()" class="btn2">Fill in the inputs with a sample</button>
+    
+</div>   
+<div>
+    <table id="myTable">
+        <tr>
+          <th>NO.</th>
+          <th>Connection type</th>
+          <th>Tfo</th>
+          <th>Qu</th>
+          <th>Eta</th>
+        </tr>
+    </table>
+</div>   
+
+</html>
